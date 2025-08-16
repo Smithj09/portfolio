@@ -634,4 +634,10 @@ footer{
   .services ul, .right-reserved span, .right-reserved a{
     font-size: 14px;
   }
+  .services ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
