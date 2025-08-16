@@ -634,7 +634,7 @@ footer{
   .services ul, .right-reserved span, .right-reserved a{
     font-size: 14px;
   }
-  .services ul{
+  .services ul, .right-reserved{
     display: flex;
     justify-content: center;
     align-items: center;
