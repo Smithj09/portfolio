@@ -614,6 +614,12 @@ footer{
 .media-icon a{
   color: white;
 }
+.right-reserved{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 .right-reserved a{
   color: white;
   text-decoration: none;
@@ -623,6 +629,10 @@ footer{
   color: white;
   font-size: 18px;
 }
+.right-reserved p{
+  font-size: 18px;
+  color: white;
+}
 
 @media screen and (max-width:768px) {
   .name h1{
@@ -631,13 +641,10 @@ footer{
   .services span{
     font-size: 16px;
   }
-  .services ul, .right-reserved span, .right-reserved a{
+  .services ul, .right-reserved span, .right-reserved a, .right-reserved p{
     font-size: 14px;
   }
   .services ul, .right-reserved{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     gap: 5px;
   }
