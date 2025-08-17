@@ -290,8 +290,10 @@ nav ul li:hover {
   }
 
   .image-hero img {
-    width: 400px;
-    height: 400px;
+    margin-top: none;
+    padding-top: none;
+    width: 300px;
+    height: 300px;
     border-radius: 200px;
   }
 
