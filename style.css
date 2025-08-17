@@ -277,6 +277,10 @@ nav ul li:hover {
     height: auto;
     border-radius: 350px;
   }
+  #hero-section button{
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -315,6 +319,8 @@ nav ul li:hover {
   .text-hero h1, .text-hero h2{
     line-height: 1.5;
   }
+
+  
 
 }
 
