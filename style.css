@@ -189,10 +189,10 @@ nav ul li:hover {
   flex-basis: 50%;
   flex-direction: column;
   justify-content: center;
-  height: 50vh;
+  /* height: 50vh; */
   text-align: justify;
   /* padding: 0 10px; */
-  gap: 1rem;
+  /* gap: 1rem; */
   order: 1;
 }
 
