@@ -189,10 +189,7 @@ nav ul li:hover {
   flex-basis: 50%;
   flex-direction: column;
   justify-content: center;
-  /* height: 50vh; */
   text-align: justify;
-  /* padding: 0 10px; */
-  /* gap: 1rem; */
   order: 1;
 }
 
@@ -220,6 +217,7 @@ nav ul li:hover {
   text-align: left;
   text-transform: capitalize;
   color: #003366;
+  
 }
 
 .text-hero h1 span {
@@ -312,6 +310,10 @@ nav ul li:hover {
 
   .text-hero p {
     font-size: 17px;
+  }
+
+  .text-hero h1, .text-hero h2{
+    line-height: 1.5;
   }
 
 }
